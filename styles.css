@@ -1,0 +1,17 @@
+#searchbox, .bookdetails {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    padding:10px;
+    width:250px;
+}
+
+#searchbox {
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: green;
+}
+
+
