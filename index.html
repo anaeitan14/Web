@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book shop</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">    
 </head>
 <body>
-    <form></form>
+    <form>
         <div id="searchbox">
-            <input placeholder="search" id="search" type="text">
+            <input placeholder="Search" id="search" type="text">
             <input type="button" id="searchButton" value="Search book">
             <h2 id="count"></h2>
          </div>
          <div class="bookdetails">
-            <input type="text" placeholder="title" id="title">
-            <input type="text" placeholder = "author" id="author">
-            <input type="text" placeholder = "category" id="category" >
+            <input type="text" placeholder="Title" id="title">
+            <input type="text" placeholder = "Author" id="author">
+            <input type="text" placeholder = "Category" id="category" >
             <input type="button" id="addbook" value="Add book">
-            <h2 id="found"></h2>
-         </div>
+        </div>
     </form>
+    <h2 id="found"></h2>
 <script src="script.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
     flex-direction: column;
     height:auto;
     padding:10px;
-    width:250px;
+    width:330px;
 }
 
 #searchbox {
@@ -11,7 +11,20 @@
 }
 
 div {
-    background-color: green;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(155, 66, 180,0.7);
+    border-radius: 15px;
+}
+
+input {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    width:320px;
+    height:30px;
+    margin:3px;
 }
 
 
